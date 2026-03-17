@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<header>
+<nav class="bg-slate-900 text-white flex items-center justify-between p-4 px-8">
+  <div class="text-xl font-bold italic">tong dev</div>
+
+  <ul class="flex gap-6">
+    <li><a href="#" class="hover:text-sky-400">Home</a></li>
+    <li><a href="#" class="hover:text-sky-400">About</a></li>
+    <li><a href="#" class="hover:text-sky-400">Contact</a></li>
+  </ul>
+
+
+</nav>
+</header>
+<body>
+        
+    <section id="hero" class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+
+        <div class="space-y-6">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+                Fullstack Developer
+            </h1>
+
+            <p class="text-slate-300 text-lg">
+                Building responsive web applications with React and Laravel
+            </p>
+
+            <div class="flex gap-4">
+                <a href="#contact"
+                    class="bg-cyan-500 hover:bg-cyan-600 text-black px-6 py-3 rounded-lg font-semibold transition">
+                    Hire Me
+                </a>
+
+                <a href="#skills"
+                    class="border border-slate-700 px-6 py-3 rounded-lg hover:bg-slate-800 transition">
+                    View Skills
+                </a>
+            </div>
+        </div>
+
+        <div class="flex justify-center">
+            <img src="profilepicturebro.jpg" alt="profile"
+                class="rounded-2xl w-72 h-72 object-cover shadow-xl">
+        </div>
+
+    </section>
+
+    
+    <section id="about" class="max-w-7xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold mb-6">About Me</h2>
+
+        <div class="bg-slate-800 p-8 rounded-2xl shadow-lg space-y-4 text-slate-300">
+            <p>
+                I am a fullstack developer based in Phnom Penh with over 3 years of experience building web applications.
+            </p>
+
+            <p>
+                I focus on clean, maintainable code and building fast, responsive UI.
+            </p>
+
+            <div class="flex flex-wrap gap-2 pt-4">
+                <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm">HTML</span>
+                <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">CSS</span>
+                <span class="bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                <span class="bg-cyan-400/20 text-cyan-200 px-3 py-1 rounded-full text-sm">React</span>
+                <span class="bg-red-500/20 text-red-300 px-3 py-1 rounded-full text-sm">Laravel</span>
+                <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm">MySQL</span>
+                <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-sm">AWS</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="max-w-7xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold mb-10">Core Skills</h2>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="bg-slate-800 p-6 rounded-2xl hover:scale-105 transition shadow">
+                <h3 class="font-semibold text-lg mb-2  text-white">Responsive Design</h3>
+                <p class="text-slate-400">Build mobile-first responsive layouts</p>
+            </div>
+
+            <div class="bg-slate-800 p-6 rounded-2xl hover:scale-105 transition shadow">
+                <h3 class="font-semibold text-lg mb-2 text-white">React Development</h3>
+                <p class="text-slate-400">Hooks, components, state management</p>
+            </div>
+
+            <div class="bg-slate-800 p-6 rounded-2xl hover:scale-105 transition shadow">
+                <h3 class="font-semibold text-lg mb-2 text-white">Laravel API</h3>
+                <p class="text-slate-400">REST API & backend architecture</p>
+            </div>
+
+            <div class="bg-slate-800 p-6 rounded-2xl hover:scale-105 transition shadow">
+                <h3 class="font-semibold text-lg mb-2 text-white">Database</h3>
+                <p class="text-slate-400">MySQL & PostgreSQL design</p>
+            </div>
+
+            <div class="bg-slate-800 p-6 rounded-2xl hover:scale-105 transition shadow">
+                <h3 class="font-semibold text-lg mb-2 text-white">DevOps</h3>
+                <p class="text-slate-400">Docker & CI/CD pipeline</p>
+            </div>
+
+            <div class="bg-slate-800 p-6 rounded-2xl hover:scale-105 transition shadow">
+                <h3 class="font-semibold text-lg mb-2 text-white">Cloud</h3>
+                <p class="text-slate-400">AWS deployment</p>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="contact" class="max-w-7xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold mb-10">Get In Touch</h2>
+
+        <form class="bg-slate-800 p-8 rounded-2xl space-y-6 shadow-lg">
+        
+            
+            <div>
+                <label for="name" class="block mb-2 text-sm text-slate-300">
+                    Full Name *
+                </label>
+                <input type="text" id="name" name="name" required placeholder="John Doe"
+                    class="w-full p-3 rounded-lg bg-slate-900 border border-slate-700 focus:outline-none focus:border-cyan-400">
+            </div>
+        
+            
+            <div>
+                <label for="email" class="block mb-2 text-sm text-slate-300">
+                    Email *
+                </label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com"
+                    class="w-full p-3 rounded-lg bg-slate-900 border border-slate-700 focus:outline-none focus:border-cyan-400">
+            </div>
+        
+          
+            <div>
+                <label for="message" class="block mb-2 text-sm text-slate-300">
+                    Message *
+                </label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."
+                    class="w-full p-3 rounded-lg bg-slate-900 border border-slate-700 focus:outline-none focus:border-cyan-400">
+                </textarea>
+            </div>
+        
+        
+            <div class="flex gap-4">
+        
+                <button type="submit" class="bg-cyan-500 hover:bg-cyan-600 text-black px-6 py-3 rounded-lg font-semibold">
+                    Send Message
+                </button>
+        
+                <button type="reset" class="border border-slate-600 px-6 py-3 rounded-lg hover:bg-slate-700 text-white">
+                    Clear
+                </button>
+        
+            </div>
+        
+        </form>
+    </section>
+
+  
+    <footer class="border-t border-slate-800 mt-10">
+        <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+
+            <p class="text-slate-400 text-sm">
+                © 2026 Tong-dev — Phnom Penh, Cambodia
+            </p>
+
+            <div class="flex gap-4 text-sm">
+                <a href="#" class="hover:text-cyan-400">GitHub</a>
+                <a href="#" class="hover:text-cyan-400">LinkedIn</a>
+                <a href="#" class="hover:text-cyan-400">Email</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
